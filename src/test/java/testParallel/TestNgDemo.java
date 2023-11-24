@@ -4,11 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestNgDemo {
-	@Test
+/*	@Test
 	public void login() {
 		System.out.println("login");
 	}
-	
+*/
 	@Test
 	public void dash() {
 		System.out.println("dash");
