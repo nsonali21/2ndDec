@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Amazon">
+  	<parameter name="Url" value="https://www.amazon.in/"></parameter>
+  	<parameter name="Name" value="testing"></parameter>
+    <classes>
+      <class name="testParallel.TestNgParameter"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="RedBus">
+  	<parameter name="Url" value="https://www.redbus.in/"></parameter>
+  	<parameter name="Name" value="Development"></parameter>
+    <classes>
+      <class name="testParallel.TestNgParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

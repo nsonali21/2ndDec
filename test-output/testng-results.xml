@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T11:02:17Z" name="Suite" finished-at="2023-09-13T11:02:17Z" duration-ms="332">
+    <groups>
+    </groups>
+    <test started-at="2023-09-13T11:02:17Z" name="Amazon" finished-at="2023-09-13T11:02:17Z" duration-ms="78">
+      <class name="testParallel.TestNgParameter">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testParallel.TestNgParameter@4961f6af]" started-at="2023-09-13T16:32:17Z" name="login" finished-at="2023-09-13T16:32:17Z" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testParallel.TestNgParameter -->
+    </test> <!-- Amazon -->
+    <test started-at="2023-09-13T11:02:17Z" name="RedBus" finished-at="2023-09-13T11:02:17Z" duration-ms="10">
+      <class name="testParallel.TestNgParameter">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testParallel.TestNgParameter@1dac5ef]" started-at="2023-09-13T16:32:17Z" name="login" finished-at="2023-09-13T16:32:17Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.redbus.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RedBus]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testParallel.TestNgParameter -->
+    </test> <!-- RedBus -->
+  </suite> <!-- Suite -->
+</testng-results>
